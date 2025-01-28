@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+<html>
+<script>
+function calc()
+{
+	const input1=document.getElementById ("input1").value;
+	const input2=document.getElementById ("input2").value;
+
+	const answer=Number(input1)+Number(input2);
+	document.getElementById ("input3").value=answer;
+	//alert(answer);
+}
+</script>
+<body>
+<div>Hello world</div>
+<input type="text" id="input1" placeholder="入力フィールド1">
+<input type="text" id="input2" placeholder="入力フィールド2">
+<input type="text" id="input3" placeholder="出力フィールド1">
+<button onclick="calc();"> calc </button>
+</body>
+</html>
